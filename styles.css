@@ -166,3 +166,153 @@ footer {
 .book p strong {
     color: #333;
 }
+
+/* All Books Section */
+#books {
+    padding: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#books h2 {
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.book-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.book-item {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 220px;
+}
+
+.book-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.book-item h3 a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.book-item h3 a:hover {
+    color: #1abc9c;
+}
+
+.book-item p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.book-item p strong {
+    color: #333;
+}
+
+/* About Page Styles */
+#about {
+    padding: 50px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about h2, #about h3 {
+    color: #2c3e50;
+}
+
+#about p, #about ul {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#about ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#about ul li::before {
+    content: '\2713'; /* Checkmark symbol */
+    color: #1abc9c;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#about a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+#about a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Page Styles */
+#contact {
+    padding: 50px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#contact h2 {
+    color: #2c3e50;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contact label {
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+#contact input, #contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+#contact button {
+    background-color: #1abc9c;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+#contact button:hover {
+    background-color: #16a085;
+}
